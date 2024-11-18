@@ -74,7 +74,7 @@ function App() {
           data[0].map((canvasdets, index) => <Canvas details={canvasdets} />)}
         <div className="w-full relative z-[1] h-screen ">
           <nav className="w-full p-8 flex justify-between z-50">
-            <div className="brand text-2xl font-md">Shivtej Pisal</div>
+            <div className="brand text-2xl font-md">thirtysixstudios</div>
             {/* <div className="links flex gap-10">
               {[
                 "What we do",
@@ -95,25 +95,28 @@ function App() {
           <div className="textcontainer  w-full px-[20%]">
             <div className="text w-[50%]">
               <h3 className="text-4xl leading-[1.2]">
-              Driven by passion, ready to innovate, and eager to grow.
+                At Thirtysixstudio, we build immersive digital experiences for
+                brands with a purpose.
               </h3>
               <p className="text-lg w-[80%] mt-10 font-normal">
-              I am enthusiastic about crafting meaningful digital experiences through innovative solutions. With a strong foundation in development and design, 
-              I am eager to contribute to impactful projects while learning and evolving in a collaborative environment.
+                We are a team of designers, developers, and strategists who are
+                passionate about creating digital experiences that are both
+                beautiful and functional.
               </p>
+              <p className="text-md mt-10">scroll</p>
             </div>
           </div>
           <div className="w-full absolute bottom-0 left-0">
             <h1
               ref={headingref}
-              className="text-[17rem] font-normal tracking-tight leading-none pl-5"
+              className="text-[16rem] font-normal tracking-tight leading-none pl-5"
             >
-              Clickrighthere
+              CLickrighthere
             </h1>
           </div>
         </div>
       </div>
-      <div className="w-full relative h-screen  mt-32 px-10 font-['Helvetica_Now_Display']">
+      <div className="w-full relative h-screen  mt-32 px-10">
         {showCanvas &&
           data[1].map((canvasdets, index) => <Canvas details={canvasdets} />)}
         <h1 className="text-8xl tracking-tighter">About the Project</h1>
